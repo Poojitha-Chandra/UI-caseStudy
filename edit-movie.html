@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit-movie</title>
+    <link rel="stylesheet" href="style%20folder/style.css">
+    <script type=text/javascript src="js/script.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="page-title">
+            Movie Cruiser
+            <img src="images/logo.png" alt="movie-img">
+            <a href="movie-list-admin.html" id="menu">Movies</a>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h2>Edit Movie</h2>
+        </div>
+        <form action="" name="edit-menu" onsubmit="return validate()">
+            <div id="enter-item-name">
+                <div><label for="item-name"><strong>Title</strong></label></div>
+                <div><input type="text" id="item-name" name="item-name" placeholder="enter movie name" required></div>
+                <div id="name-error"></div>
+            </div>
+
+            <table>
+                <tr>
+                <th><label for="rs">Gross ($)</label></th>
+                <th><label>Active</label></th>
+                <th><label for="launch-date">Date of Launch</label></th>
+                <th><label for="category">Genre</label></th>
+                </tr>
+                
+                <tr>
+                    <td><input type="text" id="rs" name="rs" required></td>
+                    <td>
+                        <input type="radio" id="active-yes" value="yes" name="active">
+                        <label for="active-yes">Yes</label>
+                        <input type="radio" id="active-no" value="no" name="active">
+                        <label for="active-no">No</label>
+                    </td>
+                    <td><input type="date" id="launch-date" name="launch-date" required></td>    
+                    <td>
+                        <select name="Genre" id="category">
+                            <option value="Superhero">Superhero</option>
+                            <option value="Science Fiction">Science Fiction</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Comedy">Comedy</option>
+                            <option value="Adventure">Adventure</option>
+                            <option value="Thriller">Thriller</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="delivery">
+                <input type="checkbox" id="free-delivery" name="free-delivery" value="free-delivery">
+                <label for="free-delivery">Has Teaser</label>
+            </div>
+
+            <button type="submit" id="save" name="save">Save</button>
+
+        </form>
+    </section>
+    <footer>
+        <p class="copyright">Copyright &copy; 2019</p>
+    </footer>
+</body>
+</html>
