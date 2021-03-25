@@ -1,1 +1,135 @@
+body{
+    margin-top: 0px;
+    margin: 0px;
+}
+header{
+    padding: 20px;
+    margin-top: -20px;
+    background-color: #305496;
+    width: auto;
+    height: 60px;
+}
+img{
+    margin-left: 20px;
+    width: 65px;
+    height: 45px;
+}
+#menu, #cart, #edit{
+    float: right;
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.page-title{
+    color: #ffffff;
+    margin: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    margin-top: 7em;
+    height: 31.5em;
+    width: auto;
+}
+h2{
+    margin-left: 5rem;
+    font-size: 30px;
+    font-weight: 100px;
+    font-family: Arial;
+}
+table, td, th{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    text-align: center;
+    border-collapse: separate;
+    padding-right: 20px;
+    padding-bottom: 10px;
+   
+}
+.column-first{
+    padding-right: 30em;
+    text-align: left;
+}
+p{
+    color: #018001;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 15em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+#remove-message{
+    color: #018001;
+    font-weight: bold;
+    margin-left: 25rem;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#item-name{
+    width: 50em;
+}
 
+#enter-item-name{
+    padding-left: 80px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-family: Verdana;
+}
+#name-error{
+    color: #ff0000;
+}
+
+#delivery{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+#save{
+    margin-top: 30px;
+    margin-left: 80px;
+    padding: 10px;
+    width: 8em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #305496;
+}
+.center{
+   
+    margin-left: 5rem;
+}
+.single-line{
+    display: inline-block;
+}
+.inner-first{
+    display: block;
+}
+a:hover{
+    color: rgb(0, 0, 255);
+}
+a.one:visited{
+    color: #ffffff;
+}
+#msg{
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #018001;
+    text-align: left;
+}
+#empty-message{
+    margin-left: 80px;
+    font-size: 20px;
+    color: #808080;
+    text-align: left;
+}
+
+footer{
+    background-color: #BFBFBF;
+    width: auto;
+    height: 80px;
+}
+.copyright{
+    padding: 10px;
+    text-align: left;
+    color: #000000;
+}
